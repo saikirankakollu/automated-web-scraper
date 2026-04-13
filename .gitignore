@@ -1,0 +1,125 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Exported data files
+exports/*.csv
+exports/*.json
+exports/*.xlsx
+
+# Configuration with credentials
+config/credentials.json
+config/credentials.yaml
+config/*_secret*
+config/*_private*
+config/local_*.yaml
+config/local_*.json
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# IDE / Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Scrapy
+.scrapy/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Selenium / WebDriver binaries
+chromedriver
+geckodriver
+chromedriver.exe
+geckodriver.exe
+
+# Data directory (keep structure, not data)
+data/*.db
+data/*.csv
+data/*.json
+!data/.gitkeep
+
+# Environment variable files
+.env
+.env.*
+!.env.example

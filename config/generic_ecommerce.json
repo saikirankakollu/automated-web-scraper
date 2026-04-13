@@ -1,0 +1,73 @@
+{
+  "name": "Generic E-commerce Scraper",
+  "seed_urls": ["https://example-shop.com/products"],
+  "scraping": {
+    "method": "requests",
+    "delay": 2,
+    "retry_count": 3,
+    "timeout": 30,
+    "user_agent_rotation": true,
+    "proxies": []
+  },
+  "extraction": {
+    "fields": {
+      "name": {
+        "selector": "h1.product-title, .product-name, [itemprop='name']",
+        "type": "css",
+        "attribute": "text"
+      },
+      "price": {
+        "selector": ".price, .product-price, [itemprop='price']",
+        "type": "css",
+        "attribute": "text"
+      },
+      "brand": {
+        "selector": ".brand, .product-brand, [itemprop='brand']",
+        "type": "css",
+        "attribute": "text"
+      },
+      "url": {
+        "selector": "a.product-link",
+        "type": "css",
+        "attribute": "href"
+      },
+      "image_url": {
+        "selector": ".product-image img, .product-photo img",
+        "type": "css",
+        "attribute": "src"
+      },
+      "stock": {
+        "selector": ".stock-status, .availability",
+        "type": "css",
+        "attribute": "text"
+      },
+      "rating": {
+        "selector": ".rating, .star-rating",
+        "type": "css",
+        "attribute": "text"
+      },
+      "review_count": {
+        "selector": ".review-count, .num-reviews",
+        "type": "css",
+        "attribute": "text"
+      }
+    },
+    "multiple_products": true,
+    "product_container": ".product-item, .product-card, li.product"
+  },
+  "pagination": {
+    "enabled": true,
+    "next_page_selector": "a.next, .pagination .next a, a[rel='next']",
+    "max_pages": 10
+  },
+  "database": {
+    "enabled": true,
+    "type": "sqlite",
+    "path": "data/products.db"
+  },
+  "export": {
+    "csv": true,
+    "json": true,
+    "output_dir": "exports/"
+  }
+}

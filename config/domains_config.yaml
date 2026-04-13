@@ -1,0 +1,159 @@
+# Multi-domain scraper configuration
+# Each top-level key is a logical scraper name. Use domains_config.yaml
+# when you need to manage multiple sites from a single file.
+
+scrapers:
+
+  electronics_store:
+    name: Electronics Store
+    seed_urls:
+      - https://electronics-example.com/laptops
+      - https://electronics-example.com/phones
+    scraping:
+      method: requests
+      delay: 3
+      retry_count: 3
+      timeout: 30
+      user_agent_rotation: true
+      proxies: []
+    extraction:
+      product_container: ".product-tile"
+      multiple_products: true
+      fields:
+        name:
+          selector: "h3.product-name"
+          type: css
+          attribute: text
+        price:
+          selector: ".sale-price, .regular-price"
+          type: css
+          attribute: text
+        brand:
+          selector: ".manufacturer"
+          type: css
+          attribute: text
+        url:
+          selector: "a.product-tile__link"
+          type: css
+          attribute: href
+        image_url:
+          selector: ".product-tile__image img"
+          type: css
+          attribute: src
+        rating:
+          selector: ".stars"
+          type: css
+          attribute: aria-label
+    pagination:
+      enabled: true
+      next_page_selector: ".pagination__next"
+      max_pages: 15
+    database:
+      enabled: true
+      type: sqlite
+      path: data/electronics.db
+    export:
+      csv: true
+      json: false
+      output_dir: exports/electronics/
+
+  fashion_boutique:
+    name: Fashion Boutique
+    seed_urls:
+      - https://fashion-example.com/women/dresses
+      - https://fashion-example.com/men/shirts
+    scraping:
+      method: selenium          # JS-heavy site – use Selenium
+      delay: 4
+      retry_count: 2
+      timeout: 45
+      user_agent_rotation: true
+      proxies: []
+    extraction:
+      product_container: "article.product"
+      multiple_products: true
+      fields:
+        name:
+          selector: ".product__title"
+          type: css
+          attribute: text
+        price:
+          selector: ".product__price"
+          type: css
+          attribute: text
+        brand:
+          selector: ".product__vendor"
+          type: css
+          attribute: text
+        url:
+          selector: "a.product__link"
+          type: css
+          attribute: href
+        image_url:
+          selector: ".product__image"
+          type: css
+          attribute: src
+        stock:
+          selector: ".inventory-status"
+          type: css
+          attribute: text
+    pagination:
+      enabled: true
+      next_page_selector: "a[aria-label='Next page']"
+      max_pages: 30
+    database:
+      enabled: true
+      type: sqlite
+      path: data/fashion.db
+    export:
+      csv: true
+      json: true
+      output_dir: exports/fashion/
+
+  book_shop:
+    name: Book Shop
+    seed_urls:
+      - https://books-example.com/catalogue
+    scraping:
+      method: requests
+      delay: 1
+      retry_count: 5
+      timeout: 20
+      user_agent_rotation: false
+      proxies: []
+    extraction:
+      product_container: "article.product_pod"
+      multiple_products: true
+      fields:
+        name:
+          selector: "h3 a"
+          type: css
+          attribute: title
+        price:
+          selector: ".price_color"
+          type: css
+          attribute: text
+        rating:
+          selector: ".star-rating"
+          type: css
+          attribute: class
+        url:
+          selector: "h3 a"
+          type: css
+          attribute: href
+        image_url:
+          selector: ".thumbnail"
+          type: css
+          attribute: src
+    pagination:
+      enabled: true
+      next_page_selector: "li.next a"
+      max_pages: 50
+    database:
+      enabled: true
+      type: sqlite
+      path: data/books.db
+    export:
+      csv: true
+      json: true
+      output_dir: exports/books/
