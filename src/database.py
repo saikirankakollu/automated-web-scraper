@@ -1,6 +1,5 @@
 """Database access layer supporting SQLite and PostgreSQL via SQLAlchemy."""
 
-import datetime
 from typing import Any, Dict, List, Optional
 
 from sqlalchemy import (
@@ -11,6 +10,7 @@ from sqlalchemy import (
     String,
     Text,
     create_engine,
+    func,
     text,
 )
 from sqlalchemy.orm import DeclarativeBase, Session, sessionmaker
@@ -36,11 +36,11 @@ class _Product(_Base):
     image_url = Column(Text)
     rating = Column(Float)
     stock = Column(String(128))
-    created_at = Column(DateTime, default=lambda: datetime.datetime.now(datetime.timezone.utc))
+    created_at = Column(DateTime, default=func.now())
     updated_at = Column(
         DateTime,
-        default=lambda: datetime.datetime.now(datetime.timezone.utc),
-        onupdate=lambda: datetime.datetime.now(datetime.timezone.utc),
+        default=func.now(),
+        onupdate=func.now(),
     )
 
 
@@ -49,7 +49,7 @@ class _ScrapeLog(_Base):
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     domain = Column(String(256), nullable=False)
-    timestamp = Column(DateTime, default=lambda: datetime.datetime.now(datetime.timezone.utc))
+    timestamp = Column(DateTime, default=func.now())
     status = Column(String(64), nullable=False)
     records_extracted = Column(Integer, default=0)
     errors = Column(Text)
@@ -237,7 +237,7 @@ class DatabaseManager:
             query = session.query(_ScrapeLog)
             if domain:
                 query = query.filter(_ScrapeLog.domain == domain)
-            rows = query.order_by(_ScrapeLog.timestamp.desc()).all()
+            rows = query.order_by(_ScrapeLog.timestamp.desc(), _ScrapeLog.id.desc()).all()
         return [
             {c.key: getattr(r, c.key) for c in _ScrapeLog.__table__.columns}
             for r in rows

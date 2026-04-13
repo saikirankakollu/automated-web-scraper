@@ -2,6 +2,7 @@
 
 import os
 import sys
+from typing import Optional
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
@@ -47,7 +48,7 @@ def scrape_page(scraper: WebScraper, url: str) -> list:
     return products
 
 
-def get_next_page_url(soup, base_url: str) -> str | None:
+def get_next_page_url(soup, base_url: str) -> Optional[str]:
     """Return the absolute URL of the next page, or None."""
     extractor = DataExtractor(soup)
     rel = extractor.extract_by_css("li.next a", attribute="href")
