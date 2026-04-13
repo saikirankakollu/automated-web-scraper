@@ -47,12 +47,12 @@ def scrape_page(scraper: WebScraper, url: str) -> list:
     return products
 
 
-def get_next_page_url(soup, base: str) -> str | None:
+def get_next_page_url(soup, base_url: str) -> str | None:
     """Return the absolute URL of the next page, or None."""
     extractor = DataExtractor(soup)
     rel = extractor.extract_by_css("li.next a", attribute="href")
     if rel:
-        return base + rel
+        return base_url + rel
     return None
 
 

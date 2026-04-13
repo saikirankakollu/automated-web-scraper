@@ -36,11 +36,11 @@ class _Product(_Base):
     image_url = Column(Text)
     rating = Column(Float)
     stock = Column(String(128))
-    created_at = Column(DateTime, default=datetime.datetime.utcnow)
+    created_at = Column(DateTime, default=lambda: datetime.datetime.now(datetime.timezone.utc))
     updated_at = Column(
         DateTime,
-        default=datetime.datetime.utcnow,
-        onupdate=datetime.datetime.utcnow,
+        default=lambda: datetime.datetime.now(datetime.timezone.utc),
+        onupdate=lambda: datetime.datetime.now(datetime.timezone.utc),
     )
 
 
@@ -49,7 +49,7 @@ class _ScrapeLog(_Base):
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     domain = Column(String(256), nullable=False)
-    timestamp = Column(DateTime, default=datetime.datetime.utcnow)
+    timestamp = Column(DateTime, default=lambda: datetime.datetime.now(datetime.timezone.utc))
     status = Column(String(64), nullable=False)
     records_extracted = Column(Integer, default=0)
     errors = Column(Text)

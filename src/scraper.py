@@ -247,13 +247,11 @@ class WebScraper:
 
 def main() -> None:
     """CLI entry-point: print the title of a URL passed as the first argument."""
-    import sys as _sys
-
-    if len(_sys.argv) < 2:
+    if len(sys.argv) < 2:
         print("Usage: webscraper <url>")
-        _sys.exit(1)
+        sys.exit(1)
     scraper = WebScraper()
-    soup = scraper.scrape_url(_sys.argv[1])
+    soup = scraper.scrape_url(sys.argv[1])
     if soup:
         title = soup.find("title")
         print(f"Title: {title.get_text() if title else '(no title)'}")
