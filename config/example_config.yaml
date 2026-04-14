@@ -1,0 +1,86 @@
+# Example YAML Configuration
+# This mirrors example_config.json but in YAML format for easier readability.
+
+name: Example YAML Scraper
+description: Demonstrates every configuration option in YAML format.
+
+seed_urls:
+  - https://example.com/shop/laptops
+  - https://example.com/shop/phones
+
+scraping:
+  method: requests          # requests | selenium | scrapy
+  delay: 2.5                # Seconds between requests
+  retry_count: 3
+  timeout: 30
+  user_agent_rotation: true
+  proxies: []
+  headers:
+    Accept-Language: "en-US,en;q=0.9"
+  cookies: {}
+
+extraction:
+  product_container: ".product-card"
+  multiple_products: true
+  fields:
+    name:
+      selector: "h2.product-title"
+      type: css
+      attribute: text
+      required: true
+    price:
+      selector: "span.price"
+      type: css
+      attribute: text
+      required: true
+    brand:
+      selector: ".brand-name"
+      type: css
+      attribute: text
+    url:
+      selector: "a.product-link"
+      type: css
+      attribute: href
+    image_url:
+      selector: "img.product-image"
+      type: css
+      attribute: src
+    rating:
+      selector: "span.rating-value"
+      type: css
+      attribute: text
+    stock:
+      selector: ".availability"
+      type: css
+      attribute: text
+    sku:
+      selector: "[data-sku]"
+      type: css
+      attribute: data-sku
+    description:
+      selector: ".product-description"
+      type: css
+      attribute: text
+
+pagination:
+  enabled: true
+  next_page_selector: "a[rel='next']"
+  max_pages: 20
+  page_param: page
+
+database:
+  enabled: true
+  type: sqlite              # sqlite | postgresql
+  path: data/example.db
+  # For PostgreSQL use connection_string:
+  # connection_string: "postgresql+psycopg2://user:${DB_PASSWORD}@host/dbname"
+
+export:
+  csv: true
+  json: true
+  output_dir: exports/
+  filename_prefix: example_products
+
+logging:
+  level: INFO
+  file: logs/scraper.log
