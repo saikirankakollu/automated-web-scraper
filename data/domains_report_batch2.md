@@ -23,7 +23,7 @@ Analysis of **100 brands/domains** (Dr. Squatch → goodone2.com) for country-sp
 
 _None in this batch._
 
-### UAE + Saudi Arabia
+### UAE + Saudi Arabia (dedicated ccTLD domains)
 
 | # | Brand | UAE Domain | Saudi Domain | Notes |
 |---|-------|-----------|-------------|-------|
@@ -33,15 +33,25 @@ _None in this batch._
 | 4 | Forever52 | forever52.ae | forever52.com.sa | UAE: forever52.ae; KSA: forever52.com.sa (confirmed active) |
 | 5 | FUJI (Fujifilm) | fujifilm.ae | fujifilm.com.sa | UAE: fujifilm.ae; KSA: fujifilm.com.sa (confirmed active) |
 | 6 | ghdhair.com | ghdhair.ae | ghdhair.com.sa | UAE: ghdhair.ae; KSA: ghdhair.com.sa (confirmed active) |
-| 7 | dr.CAFE | drcafe.ae | drcafe.com/en-sa | Saudi-origin brand; KSA uses path-based locale |
 
-### UAE Only
+### UAE .ae Domain + KSA via Path-Based Locale
+
+| # | Brand | UAE Domain | KSA Access | Notes |
+|---|-------|-----------|------------|-------|
+| 1 | dr.CAFE | drcafe.ae | drcafe.com/en-sa | Saudi-origin brand; KSA uses path-based locale, not a .sa ccTLD |
+
+### UAE Only (.ae ccTLD)
 
 | # | Brand | UAE Domain | Notes |
 |---|-------|-----------|-------|
 | 1 | EMIRATES | emirates.ae | UAE national airline; redirects from emirates.com in UAE |
-| 2 | emiratesmacaroni.com | emiratesmacaroni.com | UAE-based brand; .com is the main UAE site |
-| 3 | Gisou | gisou.ae | Coming soon / announced |
+| 2 | Gisou | gisou.ae | Coming soon / announced |
+
+### UAE-Native Brands (using .com as primary UAE site)
+
+| # | Brand | Main Domain | Notes |
+|---|-------|------------|-------|
+| 1 | emiratesmacaroni.com | emiratesmacaroni.com | UAE-based brand; .com domain serves as main UAE site (not a .ae ccTLD) |
 
 ### Egypt Only
 
