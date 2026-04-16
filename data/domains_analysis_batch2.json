@@ -1,0 +1,1122 @@
+{
+  "metadata": {
+    "title": "Country-Specific Domain Analysis - Batch 2 (Dr. Squatch to goodone2.com)",
+    "description": "Analysis of brand/domain presence across MENA regional domains (.ae, .sa, .eg)",
+    "generated_at": "2026-04-16T12:37:13.980Z",
+    "total_brands_analyzed": 100,
+    "countries_checked": [
+      "UAE (.ae)",
+      "Saudi Arabia (.sa)",
+      "Egypt (.eg)"
+    ]
+  },
+  "summary": {
+    "brands_with_any_regional_domain": 10,
+    "brands_with_ae_domain": 10,
+    "brands_with_sa_domain": 7,
+    "brands_with_eg_domain": 0,
+    "brands_with_no_regional_domain": 90
+  },
+  "brands": [
+    {
+      "brand_name": "Dr. Squatch",
+      "main_website": "drsquatch.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "No regional MENA presence; available via 3rd party retailers"
+    },
+    {
+      "brand_name": "dr.CAFE",
+      "main_website": "drcafe.com",
+      "regional_domains": {
+        "uae_ae": "drcafe.ae",
+        "saudi_sa": "drcafe.com/en-sa",
+        "egypt_eg": null
+      },
+      "has_regional_presence": true,
+      "notes": "UAE: drcafe.ae; KSA: drcafe.com/en-sa (Saudi-origin brand)"
+    },
+    {
+      "brand_name": "Drake",
+      "main_website": "(no main site)",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "dreambaby",
+      "main_website": "dreambaby.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "Available via regional retailers (Mumzworld, FirstCry)"
+    },
+    {
+      "brand_name": "Dripex",
+      "main_website": "(no main site)",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "drisla.com",
+      "main_website": "drisla.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "DRUNK ELEPHANT",
+      "main_website": "drunkelephant.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "Available via Sephora ME, Ounass"
+    },
+    {
+      "brand_name": "drvranjes.com",
+      "main_website": "drvranjes.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "Available via Bloomingdale's AE/SA, Ounass"
+    },
+    {
+      "brand_name": "dwt.com.ua",
+      "main_website": "dwt.com.ua",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "Ukraine-specific"
+    },
+    {
+      "brand_name": "DY Nutrition",
+      "main_website": "dynutrition.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "Dymatize",
+      "main_website": "dymatize.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "No regional MENA site; available via Sporter, Amazon"
+    },
+    {
+      "brand_name": "EarFun",
+      "main_website": "myearfun.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "earthsavebags.com",
+      "main_website": "earthsavebags.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "EASYBUYRECH",
+      "main_website": "(no main site)",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "Eclat Skincare",
+      "main_website": "eclatskincare.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "ecolunes",
+      "main_website": "ecolunes.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "eCOTOOLS",
+      "main_website": "ecotools.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "No dedicated MENA regional site"
+    },
+    {
+      "brand_name": "edifier.pk",
+      "main_website": "edifier.com",
+      "regional_domains": {
+        "uae_ae": "edifier.ae",
+        "saudi_sa": "edifier.com.sa",
+        "egypt_eg": null
+      },
+      "has_regional_presence": true,
+      "notes": "UAE: edifier.ae; KSA: edifier.com.sa (confirmed active)"
+    },
+    {
+      "brand_name": "EDOW",
+      "main_website": "(no main site)",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "Eilik",
+      "main_website": "eilik.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "Official UAE store: ae.energizelab.com (not ccTLD)"
+    },
+    {
+      "brand_name": "ekomexico.mx",
+      "main_website": "ekomexico.mx",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "Mexico-specific"
+    },
+    {
+      "brand_name": "ELECDON",
+      "main_website": "(no main site)",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "elf.com",
+      "main_website": "elfcosmetics.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "Sells via Sephora ME in GCC; no dedicated MENA domain"
+    },
+    {
+      "brand_name": "Elitzia",
+      "main_website": "(no main site)",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "elvan.com.tr",
+      "main_website": "elvan.com.tr",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "Turkey-specific"
+    },
+    {
+      "brand_name": "EMIRATES",
+      "main_website": "emirates.com",
+      "regional_domains": {
+        "uae_ae": "emirates.ae",
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": true,
+      "notes": "UAE: emirates.ae (active; redirects from emirates.com in UAE)"
+    },
+    {
+      "brand_name": "emiratesmacaroni.com",
+      "main_website": "emiratesmacaroni.com",
+      "regional_domains": {
+        "uae_ae": "emiratesmacaroni.com",
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": true,
+      "notes": "UAE-based brand; emiratesmacaroni.com is the main UAE site"
+    },
+    {
+      "brand_name": "Emo",
+      "main_website": "(no main site)",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "enabot.com",
+      "main_website": "enabot.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "eng.marynmay.com",
+      "main_website": "marynmay.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "Enviro Guard",
+      "main_website": "(no main site)",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "EOOUT",
+      "main_website": "(no main site)",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "eqqualberryglobal.com",
+      "main_website": "eqqualberryglobal.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "Eskimo",
+      "main_website": "(no main site)",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "esprit.shop",
+      "main_website": "esprit.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "No active MENA regional site"
+    },
+    {
+      "brand_name": "ESYNIC",
+      "main_website": "(no main site)",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "ethnicjunction.com",
+      "main_website": "ethnicjunction.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "eu.lefrancbourgeois.com",
+      "main_website": "lefrancbourgeois.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "eu. is Europe subdomain"
+    },
+    {
+      "brand_name": "euroceramicainc.com",
+      "main_website": "euroceramicainc.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "Eveline Cosmetics",
+      "main_website": "evelinecosmetics.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "No dedicated MENA site; available via Life Pharmacy, Amazon"
+    },
+    {
+      "brand_name": "everystrand.com",
+      "main_website": "everystrand.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "EVO-STIK",
+      "main_website": "evo-stik.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "exide.com",
+      "main_website": "exide.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "No country-specific MENA domains; uses distributor network"
+    },
+    {
+      "brand_name": "Eyoyo",
+      "main_website": "(no main site)",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "fackelmann.it",
+      "main_website": "fackelmann.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ".it is Italy-specific"
+    },
+    {
+      "brand_name": "Fair & Lovely",
+      "main_website": "fairandlovely.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "Rebranded to Glow & Lovely; sold via Unilever Arabia"
+    },
+    {
+      "brand_name": "FANGFANGOTD",
+      "main_website": "(no main site)",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "fanxiang",
+      "main_website": "(no main site)",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "FarmaCell",
+      "main_website": "farmacell.it",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "Italy-specific"
+    },
+    {
+      "brand_name": "fastrack.in",
+      "main_website": "fastrack.in",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "India-specific"
+    },
+    {
+      "brand_name": "Feba",
+      "main_website": "(no main site)",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "FEILANDUO",
+      "main_website": "(no main site)",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "fellertechnologie.de",
+      "main_website": "fellertechnologie.de",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "Germany-specific"
+    },
+    {
+      "brand_name": "Fevicol",
+      "main_website": "fevicol.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "Regional hub: pidilitemea.com (not ccTLD)"
+    },
+    {
+      "brand_name": "fi.dalybms.com",
+      "main_website": "dalybms.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "fi. is Finland subdomain"
+    },
+    {
+      "brand_name": "FILA",
+      "main_website": "fila.com",
+      "regional_domains": {
+        "uae_ae": "fila.ae",
+        "saudi_sa": "fila.com.sa",
+        "egypt_eg": null
+      },
+      "has_regional_presence": true,
+      "notes": "UAE: fila.ae; KSA: fila.com.sa (confirmed active)"
+    },
+    {
+      "brand_name": "finamill.jp",
+      "main_website": "finamill.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ".jp is Japan-specific"
+    },
+    {
+      "brand_name": "Fintie",
+      "main_website": "(no main site)",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "FIT KING",
+      "main_website": "(no main site)",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "fit-index.com",
+      "main_website": "fit-index.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "fixicpatch.com",
+      "main_website": "fixicpatch.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "FLEXISPOT",
+      "main_website": "flexispot.com",
+      "regional_domains": {
+        "uae_ae": "flexispot.ae",
+        "saudi_sa": "flexispot.com.sa",
+        "egypt_eg": null
+      },
+      "has_regional_presence": true,
+      "notes": "UAE: flexispot.ae; KSA: flexispot.com.sa (confirmed active)"
+    },
+    {
+      "brand_name": "Flonase",
+      "main_website": "flonase.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "No regional MENA site"
+    },
+    {
+      "brand_name": "fluke.com",
+      "main_website": "fluke.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "No ccTLD; uses authorized distributors in MENA"
+    },
+    {
+      "brand_name": "FORCE FACTOR",
+      "main_website": "forcefactor.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "Forever52",
+      "main_website": "forever52.com",
+      "regional_domains": {
+        "uae_ae": "forever52.ae",
+        "saudi_sa": "forever52.com.sa",
+        "egypt_eg": null
+      },
+      "has_regional_presence": true,
+      "notes": "UAE: forever52.ae; KSA: forever52.com.sa (confirmed active)"
+    },
+    {
+      "brand_name": "forevernew.co.in",
+      "main_website": "forevernew.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ".co.in is India-specific"
+    },
+    {
+      "brand_name": "foxtale.in",
+      "main_website": "foxtale.in",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "India-specific"
+    },
+    {
+      "brand_name": "franckolivier.fr",
+      "main_website": "franckolivier.fr",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "France-specific"
+    },
+    {
+      "brand_name": "Franco",
+      "main_website": "(no main site)",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "FREETOO",
+      "main_website": "(no main site)",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "freshstep.com",
+      "main_website": "freshstep.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "Frito Lay",
+      "main_website": "fritolay.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "fuchsgruppe.shop",
+      "main_website": "fuchsgruppe.shop",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "FUJI",
+      "main_website": "fujifilm.com",
+      "regional_domains": {
+        "uae_ae": "fujifilm.ae",
+        "saudi_sa": "fujifilm.com.sa",
+        "egypt_eg": null
+      },
+      "has_regional_presence": true,
+      "notes": "UAE: fujifilm.ae; KSA: fujifilm.com.sa (confirmed active)"
+    },
+    {
+      "brand_name": "Funito",
+      "main_website": "(no main site)",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "funskoolindia.com",
+      "main_website": "funskoolindia.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "India-specific"
+    },
+    {
+      "brand_name": "G GravaStar",
+      "main_website": "gravastar.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "GALER",
+      "main_website": "(no main site)",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "gamdias.com",
+      "main_website": "gamdias.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "Garden of Life",
+      "main_website": "gardenoflife.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "No MENA regional site; available via BinSina, Amazon"
+    },
+    {
+      "brand_name": "gatsport.com",
+      "main_website": "gatsport.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "GDEALER",
+      "main_website": "(no main site)",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "geirness.com",
+      "main_website": "geirness.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "Gentlemen's Hardware",
+      "main_website": "gentlemenshardware.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "gerber.com",
+      "main_website": "gerber.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "No MENA regional site; available via FirstCry, Amazon"
+    },
+    {
+      "brand_name": "GHARIBO BAGS",
+      "main_website": "(no main site)",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "ghdhair.com",
+      "main_website": "ghdhair.com",
+      "regional_domains": {
+        "uae_ae": "ghdhair.ae",
+        "saudi_sa": "ghdhair.com.sa",
+        "egypt_eg": null
+      },
+      "has_regional_presence": true,
+      "notes": "UAE: ghdhair.ae; KSA: ghdhair.com.sa (confirmed active)"
+    },
+    {
+      "brand_name": "Gigamic",
+      "main_website": "gigamic.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "gingerray.co.uk",
+      "main_website": "gingerray.co.uk",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "UK-specific"
+    },
+    {
+      "brand_name": "Gisou",
+      "main_website": "gisou.com",
+      "regional_domains": {
+        "uae_ae": "gisou.ae",
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": true,
+      "notes": "UAE: gisou.ae (coming soon / announced)"
+    },
+    {
+      "brand_name": "GL.iNet",
+      "main_website": "gl-inet.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "glamneticvip.com",
+      "main_website": "glamneticvip.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "global.zscarjack.com",
+      "main_website": "zscarjack.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "Gloria Vanderbilt",
+      "main_website": "(no main site)",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "GMKtec",
+      "main_website": "gmktec.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "No dedicated MENA regional site"
+    },
+    {
+      "brand_name": "godrejbangladesh.com",
+      "main_website": "godrej.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": "Bangladesh-specific; MENA ops via godrejafrica.com"
+    },
+    {
+      "brand_name": "Gogogo Sport Vpro",
+      "main_website": "(no main site)",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "Goodern",
+      "main_website": "(no main site)",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    },
+    {
+      "brand_name": "goodone2.com",
+      "main_website": "goodone2.com",
+      "regional_domains": {
+        "uae_ae": null,
+        "saudi_sa": null,
+        "egypt_eg": null
+      },
+      "has_regional_presence": false,
+      "notes": ""
+    }
+  ]
+}
